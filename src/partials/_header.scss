@@ -1,5 +1,7 @@
+// NAVBAR TOP MENU
 header {
     font-weight: $txt_normal;
+    margin-bottom: 50px
 }
 
 #main_nav {
@@ -16,5 +18,43 @@ header {
         &:hover {
             cursor: pointer;
         }
+    }
+}
+
+
+// JUMBOTRON
+.jumbo {
+    width: 100%;
+    @include d-flex;
+
+    & > div {
+        width: 50%;
+    }
+
+    & p {
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+}
+
+.j_img {
+    width: 100%;
+}
+
+.btn_zone_jumbo {
+    margin-top: 60px;
+
+    & span {
+        margin: 0px 10px;
+        font-weight: 500;
+    }
+
+    & div:first-child {
+        @include d-flex;
+        align-items: center;
+    }
+
+    & div:last-child {
+        padding: 20px 0px;
     }
 }

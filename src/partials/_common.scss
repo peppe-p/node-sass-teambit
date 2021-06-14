@@ -14,6 +14,12 @@ a {
     color: $text_color;
 }
 
+h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 5rem;
+}
+
 //MIXIN ////////////////////////////////
 @mixin d-flex {
     display: flex;
@@ -36,9 +42,11 @@ a {
     align-items: center;
     justify-content: center;
     color: white;
-    border-radius: 6px;
+    border-radius: 5px;
     font-weight: $txt_normal;
     background-color: $btn_color;
+    border: 0px solid;
+    padding: 8px;
 
 
     & * {
@@ -48,6 +56,7 @@ a {
     &:hover {
         cursor: pointer;
         background-color: white;
+        border: 1px solid $btn_color;
         color: $btn_color;
     }
 }
