@@ -130,8 +130,11 @@ main {
   background-color: #ffe7d2;
   padding-top: 50px;
 }
+main hr {
+  margin: 200px 0;
+}
 
-.rabbit_1 {
+.rabbit_1, .rabbit_2 {
   text-align: center;
 }
 

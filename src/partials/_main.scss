@@ -1,10 +1,14 @@
 main {
     background-color: $primary;
     padding-top: 50px;
+
+    & hr {
+        margin: 200px 0;
+    }
 }
 
 //RABBIT DIV
-.rabbit_1 {
+.rabbit_1, .rabbit_2 {
     text-align: center;
 }
 
