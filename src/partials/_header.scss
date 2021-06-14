@@ -1,11 +1,20 @@
+header {
+    font-weight: $txt_normal;
+}
+
 #main_nav {
     @include d-flex;
     text-decoration: none;
     justify-content: space-between;
+    align-items: center;
 
     & li {
         list-style: none;
         display: inline-block;
         padding: 0px 10px;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
