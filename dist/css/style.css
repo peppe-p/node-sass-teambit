@@ -20,6 +20,12 @@ h1 {
   line-height: 5rem;
 }
 
+h2 {
+  font-size: 3.3rem;
+  font-weight: 500;
+  line-height: 5rem;
+}
+
 .container {
   width: 1200px;
   min-width: 800px;
@@ -123,4 +129,18 @@ header {
 main {
   background-color: #ffe7d2;
   padding-top: 50px;
+}
+
+.rabbit_1 {
+  text-align: center;
+}
+
+.col3 {
+  display: flex;
+  display: -ms-flexbox;
+  justify-content: space-between;
+  margin: 100px 0px;
+}
+.col3 img {
+  height: 150px;
 }

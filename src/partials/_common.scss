@@ -20,6 +20,12 @@ h1 {
     line-height: 5rem;
 }
 
+h2 {
+    font-size: 3.3rem;
+    font-weight: 500;
+    line-height: 5rem;
+}
+
 //MIXIN ////////////////////////////////
 @mixin d-flex {
     display: flex;

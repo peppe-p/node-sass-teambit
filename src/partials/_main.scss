@@ -2,3 +2,19 @@ main {
     background-color: $primary;
     padding-top: 50px;
 }
+
+//RABBIT DIV
+.rabbit_1 {
+    text-align: center;
+}
+
+.col3 {
+    @include d-flex;
+    justify-content: space-between;
+    margin: 100px 0px;
+
+    & img {
+        height: 150px;
+    }
+}
+////////////
