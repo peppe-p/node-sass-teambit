@@ -119,3 +119,8 @@ header {
 .btn_zone_jumbo div:last-child {
   padding: 20px 0px;
 }
+
+main {
+  background-color: #ffe7d2;
+  padding-top: 50px;
+}
