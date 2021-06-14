@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+    color: $text_color;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    min-width: 800px;
+    margin: auto;
+}
+
+@mixin d-flex {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
